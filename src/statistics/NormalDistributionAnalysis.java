@@ -32,9 +32,9 @@ public class NormalDistributionAnalysis {
 		double a = 17.5, b = 21.5;
 		// cumulativeProbability() method returns the value of Φ(x).
 		double Φa = nd.cumulativeProbability(a);
-		System.out.printf("Φ(a) = %6.4f%n", Φa);
+		System.out.printf("Φ(a) = %6.6f%n", Φa);
 		double Φb = nd.cumulativeProbability(b);
-		System.out.printf("Φ(b) = %6.4f%n", Φb);
-		System.out.printf("Φ(b) - Φ(a) = %6.4f%n", Φb - Φa);
+		System.out.printf("Φ(b) = %6.6f%n", Φb);
+		System.out.printf("Φ(b) - Φ(a) = %6.6f%n", Φb - Φa);
 	}
 }
