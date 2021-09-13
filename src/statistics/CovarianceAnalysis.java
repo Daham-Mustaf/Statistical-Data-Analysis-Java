@@ -27,7 +27,7 @@ public class CovarianceAnalysis {
 		 * method. To use unbiased covariance between two double array.
 		 */
 		// double covariance = new Covariance().covariance(x, y);
-		System.out.printf("cov: %6.4f%n", covariance);
+		System.out.printf("cov: %6.6f%n", covariance);
 
 	}
 
