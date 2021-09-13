@@ -54,7 +54,7 @@ The interface `Frequency` is very simple, and in most cases, it requires very fe
                freq.addValue(values[i]);
 }
 ```
-## Binimial Distribution:<a name="bi"></a>
+## Binomial Distribution:<a name="bi"></a>
 [BinomialDistributionAnalysis](https://github.com/Daham-Mustaf/Statistical-Data-Analysis-Java/blob/main/src/statistics/BinomialDistributionAnalysis.java) Create a binomial distribution with the given number of trials and probability of success.
 ```Java
 }
