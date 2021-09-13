@@ -8,7 +8,7 @@
 ## Introduction <a name="introduction"></a>
 Applying the basic principles of statistics to data science provides vital insight into our data. Statistics is a powerful tool. Used correctly, it enables us to be sure of our decision-making process. However, it is easy to use statistics incorrectly.
 
-Generating descriptive statistics: <a name="des"></a>
+## Generating descriptive statistics: <a name="des"></a>
 Descriptive statistics are used to summarize a sample and are not generally developed
 based on probability theories. statistics are mostly used to draw a conclusion about the population from a representative sample of it.<br />
 [DescriptiveStas](https://github.com/Daham-Mustaf/Statistical-Data-Analysis-Java/blob/main/src/statistics/DescriptiveStas.java) computed the mean, standard deviation, and median of a group of values. 
