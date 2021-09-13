@@ -16,10 +16,16 @@ public class BinomialDistributionAnalysis {
 	public static void main(String[] args) {
 
 		BinomialDistribution bd = new BinomialDistribution(n, p);
+		
 		for (int x = 0; x <= n; x++) {
 			System.out.printf("%4d%8.4f%n", x, bd.probability(x));
 		}
+		
 		System.out.printf("mean: %6.4f%n", bd.getNumericalMean());
+		/**
+	     * For  n trials and probability parameter p, the variance is
+	     * { n * p * (1 - p)}.
+	     */
 		double variance = bd.getNumericalVariance();
 		double stdv = Math.sqrt(variance);
 		System.out.printf("standard deviation: %6.4f%n", stdv);
